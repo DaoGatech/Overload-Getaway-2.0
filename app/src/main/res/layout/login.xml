@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background"
+>
+
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_marginLeft="10dp"
+       android:layout_marginTop="190dp"
+       android:background="@drawable/back">
+        <EditText
+            android:layout_marginTop="5dp"
+            android:id="@+id/n"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textColorHint="#FFFFFF"
+            android:hint="Please enter your real name"/>
+
+        <EditText
+            android:id="@+id/p"
+            android:layout_marginTop="5dp"
+            android:layout_width="fill_parent"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:hint="Please enter your phone number"/>
+
+        <LinearLayout
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="80dp"
+            android:background="@drawable/back"
+    	    android:orientation="horizontal">
+            <Button
+                android:id="@+id/login"
+                android:layout_marginLeft="5dp"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:background="#000000"
+                android:text="Enter"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/clear"
+                android:layout_marginLeft="15dp"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:background="#000000"
+                android:text="Clear"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"/>
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/btn_sign_in"
+                android:layout_width="120dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"/>
+	    </LinearLayout>
+   </LinearLayout>
+
+</LinearLayout>

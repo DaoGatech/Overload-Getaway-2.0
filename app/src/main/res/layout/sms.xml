@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b2">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="140dp"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/b">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Please enter the phone number"
+            android:id="@+id/num" />
+        <Button
+            android:layout_width="fill_parent"
+            android:id="@+id/contact"
+            android:layout_height="wrap_content"
+            android:text="Choose From Contacts"
+            android:background="#880000"
+            android:textColor="#FFFFFF"/>
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tell your friends"
+            android:id="@+id/content"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:background="#000000"
+            android:text="Send"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:id="@+id/send"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
